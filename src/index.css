@@ -1,0 +1,150 @@
+@font-face {
+  font-family: Poppins-light;
+  src: url(./assets/fonts/Poppins-Light.ttf);
+}
+
+@font-face {
+  font-family: Poppins-semibold;
+  src: url(./assets/fonts/Poppins-SemiBold.ttf);
+}
+
+* {
+   box-sizing: border-box;
+   font-family: Poppins-light, sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+nav {
+  box-shadow: 0 4px 20px -2px rgb(172, 169, 169);
+  padding: 20px 36px;
+  height: 70px;
+  display: flex;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-family: Poppins-semibold;
+  color: #ff5a5f;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.hero > img {
+  padding: 10px 40px;
+  max-width: 1000px;
+}
+
+.hero > h1,
+.hero > p {
+  margin-left: 20px;
+}
+
+.hero > h1 {
+  font-family: Poppins-semibold;
+  font-size: 3rem;
+  margin-bottom: 0;
+  margin-top: 10px;
+}
+
+.hero > p {
+  margin-top: 5px;
+  font-size: 1.4rem;
+}
+
+.cards-list {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 20px;
+  overflow-x: auto;
+  padding: 20px;
+}
+
+.card {
+  width: 265px;
+  flex: 0 0 auto;
+  display: flex;       
+  flex-direction: column;
+}
+
+.card-img-cont {
+  position: relative;
+}
+
+.card-img-cont > img {
+  width: 100%;
+  border-radius: 10px;
+  max-height: 354px;
+}
+
+.card-img-text {
+  background-color: white;
+  position: absolute;
+  top: 3%;
+  left: 10px;
+  border-radius: 5px;
+  padding: 3px 5px;
+  font-weight: bold;
+  user-select: none;
+}
+
+.card-text-star {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.card p {
+  margin: 0;
+  margin-top: 5px;
+}
+
+.card-text-star > img {
+  height: 15px;
+}
+
+.card-text-star > p > span {
+  color: grey;
+}
+
+.card-price > span {
+  font-family: Poppins-semibold;
+}
+
+.card-title {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+@media only screen and (max-width: 430px) {
+  .hero {
+    padding: 0;
+    padding-top: 10px;
+  }
+
+  .hero > img {
+    padding: 15px;
+  }
+
+  .hero > h1 {
+    font-size: 2rem;
+  }
+
+  .hero > p {
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (min-width: 1300px) {
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
