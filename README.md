@@ -25,9 +25,7 @@ I started and finished this project in April 2023.
 
 ## Links
 
-[Live Demo](https://brightneon7631.github.io/scrimba-airbnb-clone/)
-
-[My Other Projects](https://brightneon7631.github.io/odin-scrimba-projects/)
+[Live Demo](https://bn7631-scrimba-clone.pages.dev)
 
 ## Screenshots
 
@@ -57,7 +55,7 @@ I started and finished this project in April 2023.
 
 ```bash
 # clone repo
-git clone
+git clone https://github.com/BrightNeon7631/scrimba-airbnb-clone.git
 
 # install project dependencies
 npm install
