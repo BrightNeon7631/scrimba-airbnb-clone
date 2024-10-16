@@ -1,9 +1,13 @@
+import arcade from './assets/images/arcade.jpg';
+import guitar from './assets/images/guitar.jpg';
+import bike from './assets/images/mountain-bike.png';
+
 export default [
     {
         id: 1,
         title: "Enjoy Arcade Gaming",
         price: 36,
-        coverImg: "arcade.jpg",
+        coverImg: arcade,
         stats: {
             rating: 5.0,
             reviewCount: 6
@@ -15,7 +19,7 @@ export default [
         id: 2,
         title: "Learn How To Play Guitar",
         price: 125,
-        coverImg: "guitar.jpg",
+        coverImg: guitar,
         stats: {
             rating: 5.0,
             reviewCount: 30
@@ -27,7 +31,7 @@ export default [
         id: 3,
         title: "Group Mountain Biking",
         price: 50,
-        coverImg: "mountain-bike.png",
+        coverImg: bike,
         stats: {
             rating: 4.8,
             reviewCount: 2
